@@ -29,7 +29,7 @@ int main() {
   float PIBperCapita2 = PIB2 / populacao2;
 
   // Carta 3
-  char estado3 = "C";
+  char estado3 = 'C';
   char codigo3[] = "C03";
   char cidade3[] = "Fortaleza";
   int populacao3 = 2578708;
