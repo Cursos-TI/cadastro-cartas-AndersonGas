@@ -27,6 +27,17 @@ int main() {
   int pontos2 = 30;
   float densidade2 = populacao2 / area2;
   float PIBperCapita2 = PIB2 / populacao2;
+
+  // Carta 3
+  char estado3 = "C";
+  char codigo3[] = "C03";
+  char cidade3[] = "Fortaleza";
+  int populacao3 = 2578708;
+  float area3 = 313.8;
+  float PIB3 = 86.93;
+  int pontos3 = 50;
+  float densidade3 = populacao3 / area3;
+  float PIBperCapita3 = PIB3 / populacao3;
   
   // Área para entrada de dados
 
@@ -52,6 +63,17 @@ int main() {
   printf("Pontos Turísticos: %d\n", pontos2);
   printf("Densidade Populacional: %.2f habitantes/km²\n", densidade2);
   printf("PIB per Capita: %.2f reais\n", PIBperCapita2);
+
+  // Carta 3
+  printf("Carta 3: %c\n", estado3);
+  printf("Código: %s\n", codigo3);
+  printf("Cidade: %s\n", cidade3);
+  printf("População: %d\n", populacao3);
+  printf("Área: %.2f km²\n", area3);
+  printf("PIB: R$ %.2f bilhões\n", PIB3);
+  printf("Pontos Turísticos: %d\n", pontos3);
+  printf("Densidade Populacional: %.2f habitantes/km²\n", densidade3);
+  printf("PIB per Capita: %.2f reais\n", PIBperCapita3);
   
 return 0;
 } 
